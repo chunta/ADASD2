@@ -7,11 +7,9 @@ ViewInspector
 ## Unit Tests
 Verify UI behavior by checking view model states
 ## Note
-Based on the design specifications, the iPad and iPhone screens have different layouts, so separate views have been implemented.\
-However, it's worth mentioning that an alternative approach using a single view was considered to reduce maintenance efforts.\
-One possible alternative approach involved using a single view that would adapt its layout based on the device's characteristics,\
-such as size classes.\
-This approach aimed to simplify the codebase by maintaining only one view instead of separate views for iPad and iPhone.
+While considering the possibility of using a single view to\
+adapt to different devices and potentially reduce maintenance efforts,\
+separate views for iPad and iPhone were ultimately implemented for this project based on the design specifications and project requirements.
 ## Developer Environment
 iOS 15\
 Xcode 14.3
